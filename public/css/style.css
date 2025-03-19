@@ -1,0 +1,133 @@
+body{
+    font-family: "Plus Jakarta Sans", serif !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.container{
+    flex: 1;
+}
+
+.navbar{
+    height: 5rem;
+    background: white;
+}
+
+.nav-underline {
+    position: relative;
+    text-decoration: none;
+    color: #1e90ff; /* Neon Blue */
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-underline:hover {
+    color: #ff1493; /* Neon Pink */
+}
+
+.nav-underline::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -3px;
+    width: 0;
+    height: 2px;
+    background: #086a79;
+    box-shadow: 0 0 8px #022329; /* Neon Glow */
+    transition: width 0.4s ease-in-out, left 0.4s ease-in-out;
+}
+
+.nav-underline:hover::after {
+    width: 100%;
+    left: 0;
+}
+
+
+
+.fa-route{
+    color: #fe424d;
+    font-size: 2rem;
+}
+
+.nav-link{
+    color: #1e1d1d !important;
+}
+.f-info-links a{
+text-decoration: none;
+color: #1e1d1d;
+}
+.f-info-links a:hover{
+text-decoration: underline;
+}
+.f-info-socials , .f-info-links, .f-info-brand{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.f-info-socials i{
+margin-right: 1rem;
+ font-size: 1.3rem;
+}
+
+.f-info{
+    height: 8rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: space-evenly;
+    background: #ebebeb;
+    text-align: center;
+}
+
+/* cards */
+
+.card{
+    border: none !important;
+    margin-bottom: 2rem;
+}
+
+.card-img-top{
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+
+.card-body{
+    padding: 0 !important;
+}
+
+.card-text {
+    font-weight: 600 !important;
+}
+
+.listing-link{
+    text-decoration: none;
+}
+
+/* card overlay*/
+
+.card-img-overlay{
+    opacity: 0;
+}
+
+.card-img-overlay:hover{
+    opacity: 0.2;
+    background: white;
+}
+
+/* new page */
+
+.new-header{
+    margin-top: 0.5rem;
+}
+
+.add-btn{
+    font-size: 1.1rem !important;
+    font-weight: 600 !important;
+}
+
+/* show img */
+
+.show-img{
+    height: 30vh;
+}
