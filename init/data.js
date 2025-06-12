@@ -10,7 +10,6 @@ const sampleListings = [
     price: 1500,
     location: "Malibu",
     country: "United States",
-    mapLink: "https://www.google.com/maps/place/Fiji"
   },
   {
     title: "Modern Loft in Downtown",
@@ -23,7 +22,6 @@ const sampleListings = [
     price: 1200,
     location: "New York City",
     country: "United States",
-    mapLink: "https://www.google.com/maps/place/Fiji"
   },
   {
     title: "Mountain Retreat",
@@ -36,7 +34,6 @@ const sampleListings = [
     price: 1000,
     location: "Aspen",
     country: "United States",
-    mapLink: "https://www.google.com/maps/place/Fiji"
   },
   {
     title: "Historic Villa in Tuscany",
@@ -49,7 +46,6 @@ const sampleListings = [
     price: 2500,
     location: "Florence",
     country: "Italy",
-    mapLink: "https://www.google.com/maps/place/Fiji"
   },
   {
     title: "Secluded Treehouse Getaway",
@@ -62,7 +58,6 @@ const sampleListings = [
     price: 800,
     location: "Portland",
     country: "United States",
-    mapLink: "https://www.google.com/maps/place/Fiji"
   },
   {
     title: "Beachfront Paradise",
@@ -75,7 +70,6 @@ const sampleListings = [
     price: 2000,
     location: "Cancun",
     country: "Mexico",
-    mapLink: "https://www.google.com/maps/place/Fiji"
   },
   {
     title: "Rustic Cabin by the Lake",
@@ -88,7 +82,6 @@ const sampleListings = [
     price: 900,
     location: "Lake Tahoe",
     country: "United States",
-    mapLink: "https://www.google.com/maps/place/Fiji"
   },
   {
     title: "Luxury Penthouse with City Views",
@@ -101,7 +94,6 @@ const sampleListings = [
     price: 3500,
     location: "Los Angeles",
     country: "United States",
-    mapLink: "https://www.google.com/maps/place/Fiji"
   },
   {
     title: "Ski-In/Ski-Out Chalet",
@@ -114,7 +106,6 @@ const sampleListings = [
     price: 3000,
     location: "Verbier",
     country: "Switzerland",
-    mapLink: "https://www.google.com/maps/place/Fiji"
   },
   {
     title: "Safari Lodge in the Serengeti",
@@ -127,7 +118,6 @@ const sampleListings = [
     price: 4000,
     location: "Serengeti National Park",
     country: "Tanzania",
-    mapLink: "https://www.google.com/maps/place/Fiji"
   },
   {
     title: "Historic Canal House",
@@ -140,7 +130,6 @@ const sampleListings = [
     price: 1800,
     location: "Amsterdam",
     country: "Netherlands",
-    mapLink: "https://www.google.com/maps/place/Fiji"
   },
   {
     title: "Private Island Retreat",
@@ -153,7 +142,6 @@ const sampleListings = [
     price: 10000,
     location: "Fiji",
     country: "Fiji",
-    mapLink: "https://www.google.com/maps/place/Fiji"
   },
   {
     title: "Charming Cottage in the Cotswolds",
@@ -166,7 +154,6 @@ const sampleListings = [
     price: 1200,
     location: "Cotswolds",
     country: "United Kingdom",
-    mapLink: "https://www.google.com/maps/place/Fiji"
   },
   {
     title: "Historic Brownstone in Boston",
@@ -179,7 +166,6 @@ const sampleListings = [
     price: 2200,
     location: "Boston",
     country: "United States",
-    mapLink: "https://www.google.com/maps/place/Fiji"
   },
   {
     title: "Beachfront Bungalow in Bali",
@@ -192,7 +178,6 @@ const sampleListings = [
     price: 1800,
     location: "Bali",
     country: "Indonesia",
-    mapLink: "https://www.google.com/maps/place/Fiji"
   },
   {
     title: "Mountain View Cabin in Banff",
@@ -205,7 +190,6 @@ const sampleListings = [
     price: 1500,
     location: "Banff",
     country: "Canada",
-    mapLink: "https://www.google.com/maps/place/Fiji"
   },
   {
     title: "Art Deco Apartment in Miami",
@@ -218,7 +202,6 @@ const sampleListings = [
     price: 1600,
     location: "Miami",
     country: "United States",
-    mapLink: "https://www.google.com/maps/place/Fiji"
   },
   {
     title: "Tropical Villa in Phuket",
@@ -231,7 +214,6 @@ const sampleListings = [
     price: 3000,
     location: "Phuket",
     country: "Thailand",
-    mapLink: "https://www.google.com/maps/place/Fiji"
   },
   {
     title: "Historic Castle in Scotland",
@@ -244,7 +226,6 @@ const sampleListings = [
     price: 4000,
     location: "Scottish Highlands",
     country: "United Kingdom",
-    mapLink: "https://www.google.com/maps/place/Fiji"
   },
   {
     title: "Desert Oasis in Dubai",
@@ -257,7 +238,6 @@ const sampleListings = [
     price: 5000,
     location: "Dubai",
     country: "United Arab Emirates",
-    mapLink: "https://www.google.com/maps/place/Fiji"
   },
   {
     title: "Rustic Log Cabin in Montana",
@@ -270,7 +250,6 @@ const sampleListings = [
     price: 1100,
     location: "Montana",
     country: "United States",
-    mapLink: "https://www.google.com/maps/place/Fiji"
   },
   {
     title: "Beachfront Villa in Greece",
@@ -283,7 +262,6 @@ const sampleListings = [
     price: 2500,
     location: "Mykonos",
     country: "Greece",
-    mapLink: "https://www.google.com/maps/place/Fiji"
   },
   {
     title: "Eco-Friendly Treehouse Retreat",
@@ -296,7 +274,6 @@ const sampleListings = [
     price: 750,
     location: "Costa Rica",
     country: "Costa Rica",
-    mapLink: "https://www.google.com/maps/place/Fiji"
   },
   {
     title: "Historic Cottage in Charleston",
@@ -309,7 +286,6 @@ const sampleListings = [
     price: 1600,
     location: "Charleston",
     country: "United States",
-    mapLink: "https://www.google.com/maps/place/Fiji"
   },
   {
     title: "Modern Apartment in Tokyo",
@@ -322,7 +298,6 @@ const sampleListings = [
     price: 2000,
     location: "Tokyo",
     country: "Japan",
-    mapLink: "https://www.google.com/maps/place/Fiji"
   },
   {
     title: "Lakefront Cabin in New Hampshire",
@@ -335,7 +310,6 @@ const sampleListings = [
     price: 1200,
     location: "New Hampshire",
     country: "United States",
-    mapLink: "https://www.google.com/maps/place/Fiji"
   },
   {
     title: "Luxury Villa in the Maldives",
@@ -348,7 +322,6 @@ const sampleListings = [
     price: 6000,
     location: "Maldives",
     country: "Maldives",
-    mapLink: "https://www.google.com/maps/place/Fiji"
   },
   {
     title: "Ski Chalet in Aspen",
@@ -361,7 +334,6 @@ const sampleListings = [
     price: 4000,
     location: "Aspen",
     country: "United States",
-    mapLink: "https://www.google.com/maps/place/Fiji"
   },
   {
     title: "Secluded Beach House in Costa Rica",
@@ -374,7 +346,6 @@ const sampleListings = [
     price: 1800,
     location: "Costa Rica",
     country: "Costa Rica",
-    mapLink: "https://www.google.com/maps/place/Fiji"
   },
 ];
 

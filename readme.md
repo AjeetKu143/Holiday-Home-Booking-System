@@ -20,5 +20,5 @@
 
 # Updated code commit – All file
 1. git add .
-2. git commit -m “Updated Commit"
+2. git commit -m "Updated Commit"
 3. git push origin main
