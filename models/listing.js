@@ -22,6 +22,10 @@ const listingSchema = new Schema({
   price: Number,
   location: String,
   country: String,
+  mapLink: {
+    type: String,
+    required: true,
+  },
 });
 
 const Listing = mongoose.model("Listing", listingSchema);

@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 const Listing = require("./models/listing");
 const ejsMate = require("ejs-mate");
 
-const port = 8080;
+const port = 7070;
 const path = require("path");
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
@@ -13,7 +13,7 @@ app.use(methodOverride("_method"));
 app.engine("ejs", ejsMate)
 app.use(express.static(path.join(__dirname, "/public")));
 
-const MONGO_URL = "mongodb://127.0.0.1:27017/SwiftStay";
+const MONGO_URL = "mongodb://127.0.0.1:27017/SwiftStay_DB";
 
 main()
   .then(() => {
@@ -55,7 +55,8 @@ app.post("/listings", async (req, res) => {
     await newListing.save();
     res.redirect("/listings");
   } catch (err) {
-    next(err);
+    console.error(err);  // ✅ proper logging method
+    res.status(500).send("Something went wrong!");
   }
 });
 
@@ -90,7 +91,14 @@ app.use((err, req, res, next) => {
 });
 
 app.get("/", (req, res) => {
-  res.send("welcome to SwiftStay");
+  res.send(`
+    <h1>Welcome to SwiftStay</h1>
+    <a href="/listings">
+      <button style="padding: 10px 20px; background-color: #4CAF50; color: white; border: none; border-radius: 5px; cursor: pointer;">
+        Go to Listings
+      </button>
+    </a>
+  `);
 });
 
 app.listen(port, () => {
