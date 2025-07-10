@@ -93,6 +93,9 @@ app.use("/listings", listingsRouter);
 app.use("/listings/:id/reviews", reviewsRouter);
 app.use("/", userRouter);
 
+app.get("/", (req, res) => {
+  res.redirect("/listings");
+});
 
 // Page Not Found - 404
 app.all("*", (req, res, next) => {
