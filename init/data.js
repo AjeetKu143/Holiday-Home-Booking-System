@@ -119,6 +119,8 @@ const sampleListings = [
     location: "Serengeti National Park",
     country: "Tanzania",
   },
+
+
   {
     title: "Historic Canal House",
     description:

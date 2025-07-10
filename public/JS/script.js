@@ -18,3 +18,15 @@
       }, false)
     })
 })()
+
+
+document.addEventListener("DOMContentLoaded", () => {
+  const imageInput = document.getElementById("imageInput");
+  const clearImageBtn = document.getElementById("clearImageBtn");
+
+  if (clearImageBtn) {
+    clearImageBtn.addEventListener("click", () => {
+      imageInput.value = ""; // clear file input
+    });
+  }
+});
