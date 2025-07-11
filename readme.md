@@ -43,9 +43,6 @@ A full-featured web application framework tailored for property rental platforms
 ![MongoDB Atlas](https://img.shields.io/badge/MongoDB_Atlas-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Mongoose](https://img.shields.io/badge/Mongoose-E10098?style=for-the-badge&logo=mongoose)
 
-**RESTful APIs:**  
-![REST](https://img.shields.io/badge/REST-025B9A?style=for-the-badge&logo=rest&logoColor=white)
-
 **Cloud Services:**  
 ![Cloudinary](https://img.shields.io/badge/Cloudinary-3448C5?style=for-the-badge&logo=cloudinary&logoColor=white)
 
