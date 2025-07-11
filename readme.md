@@ -52,6 +52,14 @@ A full-featured web application framework tailored for property rental platforms
 **Utilities / Tools:**  
 ![Nodemon](https://img.shields.io/badge/Nodemon-76D04B?style=for-the-badge)
 ![dotenv](https://img.shields.io/badge/.env-5E5C5C?style=for-the-badge)
+![method-override](https://img.shields.io/badge/Method--Override-000000?style=for-the-badge)
+![connect-flash](https://img.shields.io/badge/Connect--Flash-F47C48?style=for-the-badge)
+![express-session](https://img.shields.io/badge/Express--Session-509941?style=for-the-badge)
+![passport](https://img.shields.io/badge/Passport-34d058?style=for-the-badge)
+![passport-local](https://img.shields.io/badge/Passport--Local-264653?style=for-the-badge)
+![multer](https://img.shields.io/badge/Multer-ff595e?style=for-the-badge)
+![connect-mongo](https://img.shields.io/badge/Connect--Mongo-023047?style=for-the-badge)
+![ejs-mate](https://img.shields.io/badge/EJS--Mate-8ac926?style=for-the-badge)
 
 ---
 
@@ -61,9 +69,9 @@ Create a `.env` file in the project root with the following keys:
 
 ```env
 ATLASDB_URL=your_mongodb_connection_string
-CLOUDINARY_CLOUD_NAME=your_cloudinary_name
-CLOUDINARY_KEY=your_cloudinary_key
-CLOUDINARY_SECRET=your_cloudinary_secret
+CLOUD_NAME=your_cloudinary_name
+CLOUD_API_KEY=your_cloudinary_key
+CLOUD_API_SECRET=your_cloudinary_secret
 SECRET=your_session_secret
 ```
 ---
@@ -78,7 +86,7 @@ npm install
 nodemon app.js
 ```
 - Access at: http://localhost:7070
-
+---
 ## 🎯 Future Enhancements
 - 🗺️ Google Maps property location integration
 
